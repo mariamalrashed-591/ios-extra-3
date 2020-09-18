@@ -55,7 +55,8 @@ import UIKit
 
 
 /*: 5. Create a a function that takes a parameter of a person's name, and it **returns** the meaning of the name. (do at least 3 names)
- ***((BONUS))**: Create it using dictionaries
+ 
+ > **((BONUS))**: Create it using dictionaries
 ```
  print(meaning(name: "رتاج")) // Output:  الباب العظيم
  print(meaning(name: "حيدر")) // Output:  الأسد الجميل
@@ -83,7 +84,7 @@ import UIKit
 
 /*:
 7. Create a function that converts KGs to pounds. And a function that converts pounds to KGs
- > 1 KG = 0.453592
+ > 1 KG = 2.204 Pounds
 ```
  print(poundToKilo(4)) // Output: 1.814368
  print(KiloToPound(4)) // Output: 8.81849
@@ -116,7 +117,7 @@ import UIKit
  
 > 1 KG = 0.453592
  
- > ***SUPER DUPER** Use `map` method!
+ >  **SUPER DUPER** Use `map` method!
 ```
  print(poundsToKilos([4,5,6,7])) // Output: [1.81437, 2.26796, 2.72155, 3.17515]
 
